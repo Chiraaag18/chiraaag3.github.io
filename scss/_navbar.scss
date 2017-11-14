@@ -10,26 +10,26 @@
   }
   .navbar-brand {
     font-size: 1.1rem;
-    color: white;
+    color: red;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: white;
+      color: red;
     }
   }
   .navbar-nav {
     letter-spacing: 1px;
     li.nav-item {
       a.nav-link {
-        color: white;
+        color: red;
         &:hover {
           color: $theme-success;
           outline: none;
         }
         &:active,
         &:focus {
-          color: white;
+          color: red;
         }
       }
     }
@@ -38,11 +38,11 @@
     font-size: 14px;
     padding: 11px;
     text-transform: uppercase;
-    color: white;
-    border-color: white;
+    color: red;
+    border-color: red;
     &:focus,
     &:hover {
-      color: white;
+      color: red;
       border-color: $theme-success;
       background-color: $theme-success;
     }
@@ -62,13 +62,13 @@
       transition: all 0.3s;
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
-      color: white;
+      color: red;
       border-radius: 3px;
       background: $theme-success;
       &:active,
       &:focus,
       &:hover {
-        color: white;
+        color: red;
         background: $theme-success;
       }
     }

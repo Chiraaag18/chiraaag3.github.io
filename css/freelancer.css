@@ -18,7 +18,7 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-  color: #18BC9C;
+  color: #18FF9C;
   outline: none; }
 
 h1,
@@ -129,9 +129,9 @@ section.success {
     color: white;
     border-color: white; }
     #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
-      color: white;
-      border-color: #18BC9C;
-      background-color: #18BC9C; }
+      color: green;
+      border-color: #BCBC9C;
+      background-color: #BCBC9C; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -162,8 +162,8 @@ header.masthead {
   padding-top: 100px;
   padding-bottom: 50px;
   text-align: center;
-  color: white;
-  background: #18BC9C; }
+  color: red;
+  background: #FFAB77; }
   header.masthead img {
     display: block;
     margin: 0 auto 20px; }
@@ -271,7 +271,7 @@ header.masthead {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #2C3E50; }
+    background-color: #FFAA22; }
     .portfolio-modal .close-modal .lr .rl {
       /* Safari and Chrome */
       z-index: 1052;
